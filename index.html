@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gemini Enterprise 워크샵 가이드</title>
+<title>Gemini Enterprise 핸즈온 가이드</title>
 <style>
   :root{
     --navy:#0B2447; --navy2:#19376D; --mid:#576CBC; --light:#A5D7E8;
@@ -15,16 +15,12 @@
   body{margin:0;background:var(--bg);color:var(--ink);
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR","Malgun Gothic",sans-serif;
     line-height:1.7;font-size:16px}
-  header.top{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;padding:20px 20px 0}
+  header.top{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;padding:22px 20px}
   header.top .wrap{max-width:1100px;margin:auto}
-  header.top h1{margin:0;font-size:21px}
+  header.top h1{margin:0;font-size:22px}
   header.top p{margin:6px 0 0;color:var(--light);font-size:13px}
-  header.top .hint{margin:10px 0 14px;display:inline-block;background:rgba(255,255,255,.12);
+  header.top .hint{margin-top:10px;display:inline-block;background:rgba(255,255,255,.12);
     border:1px solid rgba(255,255,255,.25);border-radius:8px;padding:6px 12px;font-size:13px}
-  nav.tabs{max-width:1100px;margin:6px auto 0;display:flex;gap:6px}
-  nav.tabs a{color:var(--light);text-decoration:none;font-size:14px;font-weight:700;
-    padding:9px 16px;border-radius:10px 10px 0 0;background:rgba(255,255,255,.08)}
-  nav.tabs a.active{background:var(--bg);color:var(--navy)}
   .layout{display:flex;gap:32px;max-width:1100px;margin:24px auto 60px;padding:0 20px}
   aside{position:sticky;top:16px;align-self:flex-start;flex:0 0 230px;max-height:calc(100vh - 32px);overflow:auto}
   aside .toctitle{font-size:12px;font-weight:700;color:var(--gray);letter-spacing:.04em;margin:0 0 8px}
@@ -60,19 +56,14 @@
     aside{position:static;flex:none;max-height:none;background:#fff;border:1px solid var(--border);border-radius:10px;padding:10px 12px}
     main pre code{font-size:16px}
     button.copy{padding:8px 14px;font-size:13px}
-    nav.tabs a{font-size:13px;padding:8px 12px}
   }
 </style>
 </head>
 <body>
   <header class="top"><div class="wrap">
-    <h1 id="h-title">✦ Gemini Enterprise 워크샵</h1>
-    <p id="h-sub"></p>
-    <span class="hint" id="h-hint"></span>
-    <nav class="tabs">
-      <a id="tab-handson" href="?d=handson">청중 핸즈온</a>
-      <a id="tab-console" href="?d=console">호스트 구축 (A~E)</a>
-    </nav>
+    <h1>✦ Gemini Enterprise 핸즈온 가이드</h1>
+    <p>LG CNS × Gemini Enterprise · 2026-07-10 · GFC 21F Madang</p>
+    <span class="hint">📋 각 프롬프트 우측 <b>복사</b> 버튼을 눌러 채팅창에 붙여넣으세요</span>
   </div></header>
 
   <div class="layout">
@@ -80,21 +71,10 @@
     <main id="content"><p>불러오는 중…</p></main>
   </div>
 
-  <footer id="foot"></footer>
+  <footer>본 가이드의 모든 프롬프트는 그대로 복사해 사용하실 수 있습니다.</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
 <script>
-var DOCS={
-  handson:{file:'handson.md', title:'✦ Gemini Enterprise 핸즈온 가이드',
-    sub:'LG CNS × Gemini Enterprise · 2026-07-10 · GFC 21F Madang',
-    hint:'📋 각 프롬프트 우측 <b>복사</b> 버튼을 눌러 채팅창에 붙여넣으세요',
-    foot:'본 가이드의 모든 프롬프트는 그대로 복사해 사용하실 수 있습니다.'},
-  console:{file:'console.md', title:'🛠 호스트 구축 가이드 (A~E)',
-    sub:'진행자용 · Gemini Enterprise 콘솔 단계별 설정',
-    hint:'💻 각 명령어 우측 <b>복사</b> 버튼으로 그대로 실행하세요',
-    foot:'호스트(진행자)용 환경 구축 단계입니다. 코드 블록은 복사해 Cloud Shell에서 실행하세요.'}
-};
-function qd(){var m=location.search.match(/[?&]d=([^&]+)/);var d=m?decodeURIComponent(m[1]):'handson';return DOCS[d]?d:'handson';}
 function slug(t){return t.trim().toLowerCase().replace(/\s+/g,'-').replace(/[^\w가-힣\-]/g,'');}
 function enhance(root){
   var toc=document.getElementById('toc');
@@ -115,19 +95,12 @@ function enhance(root){
   });
 }
 (function(){
-  var d=qd(), cfg=DOCS[d];
-  document.title=cfg.title.replace(/^[^ ]+ /,'')+' — Gemini Enterprise 워크샵';
-  document.getElementById('h-title').textContent=cfg.title;
-  document.getElementById('h-sub').textContent=cfg.sub;
-  document.getElementById('h-hint').innerHTML=cfg.hint;
-  document.getElementById('foot').textContent=cfg.foot;
-  document.getElementById('tab-'+d).classList.add('active');
   var el=document.getElementById('content');
-  fetch(cfg.file,{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.text();}).then(function(md){
+  fetch('handson.md',{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.text();}).then(function(md){
     if(typeof marked==='undefined'){el.innerHTML='<div class="err">렌더러(marked)를 불러오지 못했습니다. 네트워크 확인 후 새로고침하세요.</div>';return;}
     el.innerHTML=marked.parse(md); enhance(el);
   }).catch(function(){
-    el.innerHTML='<div class="err"><b>'+cfg.file+'를 불러오지 못했습니다.</b><br>이 페이지는 GitHub Pages 같은 <b>웹 서버</b>에서 열어야 합니다(로컬 파일로 직접 열면 동작하지 않습니다).</div>';
+    el.innerHTML='<div class="err"><b>handson.md를 불러오지 못했습니다.</b><br>이 페이지는 GitHub Pages 같은 <b>웹 서버</b>에서 열어야 합니다(로컬 파일로 직접 열면 동작하지 않습니다).</div>';
   });
 })();
 </script>

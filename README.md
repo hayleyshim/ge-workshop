@@ -4,20 +4,13 @@
 
 ```
 ge-workshop-handson/
-├─ index.html     # 복사 버튼·목차·탭·모바일 대응 (md를 렌더링)
-├─ handson.md     # 청중 핸즈온 (기본 페이지)
-├─ console.md     # 호스트 구축 가이드 A~E
+├─ index.html     # 복사 버튼·목차·모바일 대응 (handson.md를 렌더링)
+├─ handson.md     # 청중 핸즈온 내용 (이 파일만 고치면 됨 — 단일 소스)
 ├─ .nojekyll      # Jekyll 처리 비활성화
 └─ README.md
 ```
 
-**두 페이지**를 하나의 `index.html`이 제공합니다 (상단 탭으로 전환):
-- 청중 핸즈온 → `https://<USER>.github.io/ge-workshop/`
-- 호스트 구축(A~E) → `https://<USER>.github.io/ge-workshop/?d=console`
-
-수정은 **`handson.md` / `console.md`만** 편집하면 됩니다. `index.html`이 자동 렌더링하고 모든 코드 블록에 **복사** 버튼을 붙입니다.
-
-> ℹ️ `console.md`는 호스트용 setup 가이드(`ge-workshop-setup/CONSOLE_STEPS.md`)의 사본입니다. 공개 Pages에 올리면 누구나 볼 수 있으니, 호스트 전용으로 두려면 별도 비공개 저장소를 쓰거나 `console.md`를 빼세요(청중 페이지만 공개).
+수정은 **`handson.md`만** 편집하면 됩니다. `index.html`이 자동 렌더링하고 모든 코드 블록에 **복사** 버튼을 붙입니다.
 
 ## GitHub Pages 배포 (5분)
 

@@ -34,6 +34,10 @@ Gemini Enterprise는 똑똑한 AI 비서를 넘어, **우리 회사의 일하는
 3. 자리에서 받은 **이메일·비밀번호**로 로그인
 4. 메인 채팅창이 보이면 준비 완료 ✅
 
+<img src="images/01-login.png" alt="Gemini Enterprise 로그인 화면" style="max-width:100%;border:1px solid #E2E8F0;border-radius:8px;margin:.6em 0">
+
+*▲ 로그인 화면 — 안내받은 이메일·비밀번호를 입력하면 됩니다.*
+
 ### 🎁 오늘 여러분 손에 미리 쥐여진 것
 
 > **여기가 포인트예요.** 보통 회사에서 AI를 쓰려면 데이터 연결·인증·정리에 몇 달이 걸립니다. 오늘은 그걸 **운영진이 미리 다 끝내 둔 상태**에서 시작합니다. 여러분은 골라서 쓰기만 하면 돼요.
@@ -57,6 +61,10 @@ Gemini Enterprise는 똑똑한 AI 비서를 넘어, **우리 회사의 일하는
 
 **1-1.** 채팅창 하단의 조절 버튼을 눌러 **Google 검색** 을 **켭니다(ON)**.
 
+<img src="images/02-google-search-toggle.png" alt="Google 검색 토글 켜기" style="max-width:100%;border:1px solid #E2E8F0;border-radius:8px;margin:.6em 0">
+
+*▲ 조절 버튼을 누르고 'Google 검색'을 켜면 실시간 웹 정보를 근거로 답합니다.*
+
 **1-2. 자기소개** — `OOO` 부분만 본인에 맞게 바꿔서 붙여넣기:
 
 ```
@@ -76,6 +84,10 @@ Gemini Enterprise는 똑똑한 AI 비서를 넘어, **우리 회사의 일하는
 
 답변이 실시간으로 생성되는 과정을 볼 수 있고, 답변 하단의 **소스**를 누르면 어떤 자료를 근거로 답했는지 확인됩니다.
 
+<img src="images/03-answer-generation.png" alt="실시간 답변 생성 화면" style="max-width:100%;border:1px solid #E2E8F0;border-radius:8px;margin:.6em 0">
+
+*▲ Gemini가 추론 과정을 보여주며 실시간으로 답변을 생성합니다. 하단의 '소스'로 출처를 확인하세요.*
+
 ### 1-4. 구글이 미리 만든 '완성형' 에이전트 맛보기 (택1~2)
 
 > 좌측 메뉴 **에이전트 → 모든 에이전트 보기**에서 골라 바로 써 봅니다. 버튼 한 번으로 강력해요. 다만 이건 **구글이 만든** 에이전트라 *우리 회사 고유 시스템*에는 아직 못 닿는다는 점만 기억해 두세요. (그건 뒤에서 우리가 직접 만듭니다.)
@@ -89,6 +101,10 @@ Gemini Enterprise는 똑똑한 AI 비서를 넘어, **우리 회사의 일하는
 
 > 💡 Deep Research는 바로 시작하지 않고 **"이렇게 조사할게요"라는 계획을 먼저 보여줍니다.** 유능한 연구원에게 방향을 잡아주듯, 계획을 검토하고 고쳐달라고 한 뒤 시작하면 결과가 훨씬 좋아집니다. (조사는 시간이 좀 걸릴 수 있어요.)
 
+<img src="images/04-deep-research-plan.png" alt="Deep Research 연구 계획 화면" style="max-width:100%;border:1px solid #E2E8F0;border-radius:8px;margin:.6em 0">
+
+*▲ Deep Research가 먼저 보여주는 '연구 계획'. 마음에 들면 Start를 누르거나 "시작해줘"라고 하면 됩니다.*
+
 **② Idea Generation** — 주제를 주면 아이디어를 다량으로 만들고 순위까지 매겨줍니다.
 
 ```
@@ -97,6 +113,10 @@ Gemini Enterprise는 똑똑한 AI 비서를 넘어, **우리 회사의 일하는
 ```
 
 > 💡 아직 프리뷰라 영어로 진행될 수 있고, 탐색에 시간이 걸립니다. 여러 아이디어를 만들고 서로 겨루게 해 가장 좋은 것을 골라줍니다.
+
+<img src="images/05-idea-generation-plan.png" alt="Idea Generation 아이디어 탐색 계획" style="max-width:100%;border:1px solid #E2E8F0;border-radius:8px;margin:.6em 0">
+
+*▲ Idea Generation도 '아이디어 탐색 계획'을 먼저 제안합니다. 확인 후 '세션 시작'을 누르면 됩니다.*
 
 **③ NotebookLM** — 내가 넣어준 자료를 **근거로** 요약·핵심 추출, 심지어 **오디오 개요(팟캐스트형)** 까지 만들어 줍니다.
 
@@ -144,6 +164,10 @@ Gemini Enterprise는 똑똑한 AI 비서를 넘어, **우리 회사의 일하는
 | 🔌 **Gmail / Drive / Calendar** | 메일 읽고 초안 쓰기 / 파일 읽고 저장 / 일정 보기 | **"내 메일·일정·파일을 봐줘"** |
 | 🧩 **DART 도구** | 한국 상장사의 실시간 공시·재무 가져오기 | **"이 회사 지금 상황이 어때?"** — 어제 올라온 공시까지 |
 
+<img src="images/06-connector-list.png" alt="채팅창 하단 원통 아이콘의 도구(커넥터) 목록" style="max-width:100%;border:1px solid #E2E8F0;border-radius:8px;margin:.6em 0">
+
+*▲ 채팅창 하단 '원통' 아이콘을 누르면 쓸 수 있는 도구 목록이 보입니다. 필요한 것만 켜서 씁니다.*
+
 > **딱 하나만 기억하세요** — 문서에 **적혀 있는 것**(사규·매뉴얼)은 📚 **사내 지식**으로, 시스템에서 **실시간으로 가져와야 하는 값**(오늘 올라온 공시 등)은 🧩 **DART 같은 전용 도구**로. 에이전트는 필요한 도구만 골라 묶습니다.
 
 > 🔎 **왜 둘을 나눌까?** 예를 들어 *"셀트리온이 오늘 아침 어떤 공시 올렸지?"* 는 어떤 사내 문서에도 안 적혀 있어요. DART 시스템에서 **실시간으로 조회**해야만 알 수 있죠. 반대로 *"출장비 한도는?"* 은 사규 문서에 적혀 있으니 사내 지식이 답합니다. 다음 섹션에서 직접 둘 다 써 봅니다.
@@ -164,6 +188,10 @@ Gemini Enterprise는 똑똑한 AI 비서를 넘어, **우리 회사의 일하는
 4. **테스트(파란 창)** 에 프롬프트를 던져 결과 확인 → 잘 나오면 OK
 5. 우측 상단 **생성(Create)** → 좌측 목록에 내 에이전트가 뜸
 
+<img src="images/07-agent-build-panels.png" alt="에이전트 만들기 화면 — 왼쪽 설정 창과 오른쪽 테스트 창" style="max-width:100%;border:1px solid #E2E8F0;border-radius:8px;margin:.6em 0">
+
+*▲ 에이전트 만들기 화면. 한쪽 창(설정)에 역할을 적고, 다른 창(테스트)에서 바로 굴려봅니다.*
+
 > **막히면?** 결과가 일반 검색처럼 막연하면 → *도구를 안 골랐을 가능성*. "권한 없음" → *메일·일정 연결 동의 화면 확인*. "찾을 수 없음" → *회사명 정확히* (예: "삼성전자" ⭕, "삼전" ❌). 거의 이 셋이 전부예요.
 
 ---
@@ -178,6 +206,10 @@ Gemini Enterprise는 똑똑한 AI 비서를 넘어, **우리 회사의 일하는
 2. **설정(빨간 창)** 에 ↓ 그대로 붙여넣기
 3. **도구 추가** → `DART 도구` 체크
 4. 우측 상단 **생성** → 끝
+
+<img src="images/08-new-agent.png" alt="새 에이전트 만들기 대화창" style="max-width:100%;border:1px solid #E2E8F0;border-radius:8px;margin:.6em 0">
+
+*▲ '+ 새 에이전트'를 누르면 나오는 화면. 여기서 이름·역할을 적고 도구를 붙입니다.*
 
 **설정 (빨간 창):**
 
@@ -304,6 +336,10 @@ DART에 없는 회사(비상장·외국계 등)는 "정보를 찾을 수 없다"
 >
 > ### 📧 Gmail 초안 생성됨 → [메일 초안 열기](https://mail.google.com/.../drafts/...)
 
+<img src="images/09-policy-answer-source.png" alt="사내 지식에서 찾아 출처와 함께 답하는 예시" style="max-width:100%;border:1px solid #E2E8F0;border-radius:8px;margin:.6em 0">
+
+*▲ 사내 지식 도구는 사규에서 관련 조항을 찾아 요약하고, 근거가 된 원문 출처까지 함께 보여줍니다.*
+
 > ✅ **성공 신호** — 답변에 *사규 문서명·조항*이 출처로 붙고, "Gmail 초안 생성됨" 링크를 누르면 **이미 본문이 채워진** 메일 화면이 새 탭으로 열리면 OK.
 > ⚠️ "출처를 못 찾음" → 사내 지식 도구가 빠졌는지 확인 / 초안이 안 만들어짐 → Gmail 권한 동의 화면 확인.
 
@@ -331,6 +367,10 @@ DART에 없는 회사(비상장·외국계 등)는 "정보를 찾을 수 없다"
 3. **도구 추가** → `Calendar` · `DART 도구` · `Drive`
 4. **테스트(파란 창)** 에 프롬프트 던지기
 5. **생성**
+
+<img src="images/10-drive-add-file.png" alt="Drive에서 파일 추가하기" style="max-width:100%;border:1px solid #E2E8F0;border-radius:8px;margin:.6em 0">
+
+*▲ Drive 도구를 붙이면 파일을 불러오거나 결과를 Drive에 바로 저장할 수 있습니다.*
 
 **설정 (빨간 창):**
 
@@ -372,6 +412,10 @@ DART에 없는 회사(비상장·외국계 등)는 "정보를 찾을 수 없다"
 1. 좌측 에이전트 목록에서 방금 만든 에이전트 클릭 → 우측 상단 **공유(Share)** 아이콘
 2. **사용자 또는 그룹** 입력 → 권한 선택 (보기 / 사용 / 편집)
 3. **공유 링크 복사** → 옆자리 동료에게 전송 → 동료가 클릭 → **그대로 동작** ✅
+
+<img src="images/11-share-agent.png" alt="에이전트·대화 공유 버튼" style="max-width:100%;border:1px solid #E2E8F0;border-radius:8px;margin:.6em 0">
+
+*▲ 우측 상단 '공유' 버튼으로 링크를 만들면, 동료가 같은 에이전트를 바로 쓸 수 있습니다.*
 
 > **느낀 점 한 줄** — *"IT 부서 없이도 우리 팀 전용 AI 동료를 배포했다."* 게다가 누가 무엇을 만들었는지, 어떤 도구를 쓰는지 모두 **관리자 콘솔에서 관리**됩니다. (보이지 않는 곳에서 AI가 마구 쓰일 걱정이 없어요.)
 

@@ -386,9 +386,6 @@ async def get_financial_trend(
 # Cloud Run entrypoint (SSE transport over HTTP)
 # ─────────────────────────────────────────────────────────────────────────────
 
-app = mcp.sse_app()
-
-
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
-    uvicorn.run(app, host="0.0.0.0", port=port)
+    mcp.run(transport="sse", host="0.0.0.0", port=port)

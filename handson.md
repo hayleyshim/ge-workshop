@@ -56,7 +56,7 @@ Gemini Enterprise는 똑똑한 AI 비서를 넘어, **우리 회사의 일하는
 > **핵심 용어: Gemini Enterprise에서 "데이터 스토어"는 "커넥터" 또는 "데이터 커넥터"와 서로 바꿔 사용할 수 있습니다. ([공식 문서](https://docs.cloud.google.com/gemini/enterprise/docs/connectors/custom-mcp-server/set-up-custom-mcp-server))**
 
 | 미리 준비된 것 | 무엇인가요 |
-|---|---|---|
+|---|---|
 | 🔌 **Gmail · Drive · Calendar 연결** | 메일·파일·일정을 Gemini가 안전하게 볼 수 있게 연결 완료 | 
 | 📚 **사내 지식 (사규)** | 회사 **사규**를 Gemini가 검색·인용할 수 있게 정리 완료 |
 | 🧩 **기업 공시 도구 (글로벌)** | 미국 SEC 전자공시(EDGAR)에서 글로벌 상장사의 공식 공시·재무를 실시간으로 가져오는 도구 |

@@ -403,8 +403,6 @@ Gemini Enterprise는 똑똑한 AI 비서를 넘어, **우리 회사의 일하는
 > ✅ **결과** - 전송한 메일 주소에서 Gemini Enterprise에서 발송한 메일을 확인할 수 있습니다.
 <img src="images/19-new-agent-2-mail.png" alt="사내 지식에서 찾아 출처와 함께 답하는 예시" style="max-width:100%;border:1px solid #E2E8F0;border-radius:8px;margin:.6em 0">
 
-```
-
 ---
 ### 3-2. 두 번째 에이전트 — 주간 업계 동향 브리핑 (스케줄 작업)
 

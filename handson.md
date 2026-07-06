@@ -614,7 +614,7 @@ Drive 폴더(미팅 브리프 2026)에 회사별로 저장
 ```
 다음주 예정된 미팅 사전 브리프 만들고, Drive에 회사별로 저장해줘.
 ```
-<img src="images/22-new-agent-drive.png" alt="사내 지식에서 찾아 출처와 함께 답하는 예시" style="max-width:100%;border:1px solid #E2E8F0;border-radius:8px;margin:.6em 0">
+<img src="images/22-new-agent-drive-update.png" alt="사내 지식에서 찾아 출처와 함께 답하는 예시" style="max-width:100%;border:1px solid #E2E8F0;border-radius:8px;margin:.6em 0">
 
 > 📄 **Word로 받고 싶다면 — 저장은 .md, 변환은 두 번 클릭.** 이 에이전트는 브리프를 마크다운(`.md`) 파일로 Drive에 저장합니다. Word(.docx)가 필요하면:
 > 1. Drive에서 저장된 `.md` 파일을 우클릭 → **연결 앱 → Google Docs로 열기**
@@ -622,7 +622,7 @@ Drive 폴더(미팅 브리프 2026)에 회사별로 저장
 >
 > 제목·굵기 같은 서식이 그대로 살아 변환됩니다. *(Gemini Enterprise의 Drive 커넥터는 표준 액션상 '파일 업로드'만 지원해, 에이전트가 직접 .docx나 Google Docs 문서를 만들지는 않습니다. 문서 생성이 꼭 필요하면 회사에 돌아가 IT팀과 커스텀 액션으로 확장할 수 있어요.)*
 
-<img src="images/22-new-agent-drive2.png" alt="사내 지식에서 찾아 출처와 함께 답하는 예시" style="max-width:100%;border:1px solid #E2E8F0;border-radius:8px;margin:.6em 0">
+<img src="images/22-new-agent-drive2-update.png" alt="사내 지식에서 찾아 출처와 함께 답하는 예시" style="max-width:100%;border:1px solid #E2E8F0;border-radius:8px;margin:.6em 0">
 
 > **결과** — *"사용자 Gmail 계정의 캘린더 일정에 등록된 회사들과의 미팅이 자동으로 인식돼서 각 회사를 기업 공시 도구로 분석한 정리본이 Drive에 저장됐어."* 커넥터를 묶으면 이렇게 **하나의 흐름**(workflow)가 만들어집니다.
 
